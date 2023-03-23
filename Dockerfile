@@ -32,6 +32,6 @@ USER java
 WORKDIR /
 
 ENV SCHEMASPY_DRIVERS=/drivers
-ENV SCHEMASPY_OUTPUT=/builds/devops/fastlane-react-native-test/schemaconfig
+ENV SCHEMASPY_OUTPUT=/builds/developers/dashboard/schemaspy
 
 ENTRYPOINT ["/usr/local/bin/schemaspy"]
